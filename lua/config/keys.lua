@@ -22,7 +22,7 @@ map('n', '<leader>rn', ':lua vim.lsp.buf.rename()<CR>', 'LSP Buf Rename')
 map('n', '<leader>gr', ':lua vim.lsp.buf.references()<CR>', 'LSP Buf References')
 
 -- Neotree
-map('n', '<leader>e', ':Neotree Toggle <CR>', 'File browser')
+map('n', '<leader>e', ':Neotree toggle <CR>', 'File browser')
 
 -- Navigation between splits
 map('n', '<C-h>', '<C-w>h')
