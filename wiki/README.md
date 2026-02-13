@@ -8,3 +8,5 @@ Welcome to Wiki, you nerd!
 [Installation](Installation.md)
 
 [Add Language Support](Add-Language-Support.md)
+
+[Keybindings](./Keybindings.md)
