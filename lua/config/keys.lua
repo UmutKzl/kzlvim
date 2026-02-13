@@ -31,7 +31,6 @@ map('t', '<C-j>', '<cmd>wincmd j<CR>"')
 map('t', '<C-k>', '<cmd>wincmd k<CR>"')
 map('t', '<C-l>', '<cmd>wincmd l<CR>"')
 
-
 -- Resizing splits
 map("n", "<C-Up>", ":resize -2<CR>")
 map("n", "<C-Down>", ":resize +2<CR>")
@@ -47,4 +46,15 @@ map("v", "J", ":m '>+1<CR>gv=gv")
 map("v", "K", ":m '<-2<CR>gv=gv")
 map("v", "H", "<gv")
 map("v", "L", ">gv")
+
+-- Toggle Terminal
+map('n', '<C-/>', function()
+  require("toggleterm").toggle(0)
+end, "Toggle terminal")
+
+
+-- Toggle Term even in "T" mode
+map('t', '<C-/>', function()
+  require("toggleterm").toggle(0)
+end, "Toggle terminal")
 
