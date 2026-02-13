@@ -2,4 +2,4 @@
 My own Neovim configuration!
 
 ## Wiki
-[Click here](wiki)
+[Click here](wiki/README.md)
