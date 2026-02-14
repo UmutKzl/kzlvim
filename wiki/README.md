@@ -7,3 +7,5 @@ Welcome to Wiki, you nerd!
 [Add Language Support](Add-Language-Support.md)
 
 [Keybindings](./Keybindings.md)
+
+[Plugins](./Plugins.md)
