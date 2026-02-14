@@ -29,11 +29,11 @@ Automatically download and enable LSP's.
 <summary>telescope.nvim</summary>
 Swiss Army Knife for fuzzy-finder.
 </details>
-
 <details>
 <summary>toggleterm.nvim</summary>
-Toggle Terminal with `<C-/>` shortcut.
+Toggle Terminal with `C-/` shortcut.
 </details>
+
 
 <details>
 <summary>neo-tree.nvim</summary>
